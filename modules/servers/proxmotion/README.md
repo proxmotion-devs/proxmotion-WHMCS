@@ -3,7 +3,7 @@
 A server module for **WHMCS 8 and 9** (PHP 7.2 or newer). WHMCS orders, suspends
 and terminates VPS on Proxmotion, and customers manage their server in the WHMCS
 client area. The module is a thin client of the Proxmotion billing API v1
-(`docs/api/openapi.yaml` in the Proxmotion repository); Proxmotion does the work.
+([`docs/api/openapi.yaml`](https://github.com/proxmotion-devs/proxmotion/blob/main/docs/api/openapi.yaml) in the Proxmotion repository); Proxmotion does the work.
 
 ## What it does
 

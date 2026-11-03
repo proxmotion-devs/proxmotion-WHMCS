@@ -1,0 +1,23 @@
+{
+    "name": "proxmotion/whmcs-module",
+    "description": "Proxmotion server module for WHMCS 8 and 9.",
+    "type": "project",
+    "license": "AGPL-3.0-only",
+    "homepage": "https://github.com/proxmotion-devs/proxmotion-WHMCS",
+    "require-dev": {
+        "nikic/php-parser": "^5.9",
+        "phpstan/phpstan": "^2.3",
+        "phpunit/phpunit": "^12.5"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit",
+        "types:check": "phpstan analyse --memory-limit=1G",
+        "ci:check": [
+            "@types:check",
+            "@test"
+        ]
+    }
+}
